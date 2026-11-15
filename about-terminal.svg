@@ -1,0 +1,38 @@
+<svg width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated terminal showing Mehedi's about info">
+  <defs>
+    <clipPath id="c1"><rect x="24" y="60" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.03125;0.10625;0.94;0.941;1" values="0;0;110;110;0;0"/></rect></clipPath>
+    <clipPath id="c2"><rect x="24" y="92" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.13125;0.20625;0.94;0.941;1" values="0;0;450;450;0;0"/></rect></clipPath>
+    <clipPath id="c3"><rect x="24" y="124" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.23125;0.30625;0.94;0.941;1" values="0;0;180;180;0;0"/></rect></clipPath>
+    <clipPath id="c4"><rect x="24" y="156" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.33125;0.40625;0.94;0.941;1" values="0;0;450;450;0;0"/></rect></clipPath>
+    <clipPath id="c5"><rect x="24" y="188" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.43125;0.50625;0.94;0.941;1" values="0;0;170;170;0;0"/></rect></clipPath>
+    <clipPath id="c6"><rect x="24" y="220" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.53125;0.60625;0.94;0.941;1" values="0;0;410;410;0;0"/></rect></clipPath>
+    <clipPath id="c7"><rect x="24" y="252" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.63125;0.70625;0.94;0.941;1" values="0;0;150;150;0;0"/></rect></clipPath>
+    <clipPath id="c8"><rect x="24" y="284" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.73125;0.80625;0.94;0.941;1" values="0;0;280;280;0;0"/></rect></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="798" height="378" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <path d="M1 15 Q1 1 15 1 H785 Q799 1 799 15 V40 H1 Z" fill="#161b22"/>
+  <circle cx="26" cy="21" r="7" fill="#ff5f56"/>
+  <circle cx="48" cy="21" r="7" fill="#ffbd2e"/>
+  <circle cx="70" cy="21" r="7" fill="#27c93f"/>
+  <text x="400" y="26" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8b949e">mehedi@shuvo: ~/about</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="17">
+    <g clip-path="url(#c1)"><text x="24" y="80"><tspan fill="#7ee787">$</tspan><tspan fill="#e6edf3"> whoami</tspan></text></g>
+    <g clip-path="url(#c2)"><text x="24" y="112" fill="#00d2d3">&gt; Mehedi Hassan Shuvo | Full-Stack Learner</text></g>
+    <g clip-path="url(#c3)"><text x="24" y="144"><tspan fill="#7ee787">$</tspan><tspan fill="#e6edf3"> cat skills.txt</tspan></text></g>
+    <g clip-path="url(#c4)"><text x="24" y="176" fill="#00d2d3">&gt; C, C++, JavaScript, TypeScript, HTML, CSS</text></g>
+    <g clip-path="url(#c5)"><text x="24" y="208"><tspan fill="#7ee787">$</tspan><tspan fill="#e6edf3"> cat goals.txt</tspan></text></g>
+    <g clip-path="url(#c6)"><text x="24" y="240" fill="#a78bfa">&gt; Backend | System Architecture | LLMs</text></g>
+    <g clip-path="url(#c7)"><text x="24" y="272"><tspan fill="#7ee787">$</tspan><tspan fill="#e6edf3"> echo $MOTTO</tspan></text></g>
+    <g clip-path="url(#c8)"><text x="24" y="304" fill="#ffbd2e">&gt; Turning coffee into code</text></g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.83;0.831;0.94;0.941;1" values="0;0;1;1;0;0"/>
+      <text x="24" y="336" fill="#7ee787">$</text>
+      <rect x="42" y="321" width="10" height="19" fill="#e6edf3">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5;1"/>
+      </rect>
+    </g>
+  </g>
+</svg>
