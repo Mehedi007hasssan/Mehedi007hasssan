@@ -1,0 +1,69 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mehedi Hassan Shuvo - Full-Stack Learner banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b132b"/>
+      <stop offset="0.55" stop-color="#1c2541"/>
+      <stop offset="1" stop-color="#0b3c49"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d2d3">
+        <animate attributeName="stop-color" values="#00d2d3;#7c5cff;#00d2d3" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#7c5cff">
+        <animate attributeName="stop-color" values="#7c5cff;#00d2d3;#7c5cff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#00d2d3" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00d2d3" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="round"><rect width="1000" height="280" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <ellipse cx="500" cy="110" rx="420" ry="150" fill="url(#glow)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="5s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <g font-family="Consolas, 'Courier New', monospace" fill="#00d2d3" opacity="0.28">
+      <text x="70" y="90" font-size="34">&lt;/&gt;
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="5s" repeatCount="indefinite"/>
+      </text>
+      <text x="880" y="80" font-size="34">{ }
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="6s" repeatCount="indefinite"/>
+      </text>
+      <text x="150" y="215" font-size="26">C++
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4.5s" repeatCount="indefinite"/>
+      </text>
+      <text x="820" y="200" font-size="26">=&gt;
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="5.5s" repeatCount="indefinite"/>
+      </text>
+      <text x="270" y="55" font-size="22">01
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 10;0 0" dur="7s" repeatCount="indefinite"/>
+      </text>
+      <text x="700" y="50" font-size="22">#include
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="6.5s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <g text-anchor="middle">
+      <text x="500" y="125" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="700" fill="url(#title)">Mehedi Hassan Shuvo
+        <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze"/>
+      </text>
+      <text x="500" y="168" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#cfe8ff">Full-Stack Learner  •  Backend Enthusiast  •  C / C++ Problem Solver
+        <animate attributeName="opacity" values="0;1" dur="2s" fill="freeze"/>
+      </text>
+      <text x="500" y="202" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#7c8db5">LLMs  ·  System Architecture  ·  Turning coffee into code
+        <animate attributeName="opacity" values="0;1" dur="2.6s" fill="freeze"/>
+      </text>
+    </g>
+
+    <path d="M0 238 Q125 214 250 238 T500 238 T750 238 T1000 238 T1250 238 T1500 238 T1750 238 T2000 238 V280 H0 Z" fill="#00d2d3" fill-opacity="0.14">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 252 Q125 232 250 252 T500 252 T750 252 T1000 252 T1250 252 T1500 252 T1750 252 T2000 252 V280 H0 Z" fill="#7c5cff" fill-opacity="0.2">
+      <animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
